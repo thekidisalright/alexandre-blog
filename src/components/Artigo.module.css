@@ -3,9 +3,12 @@
   flex-direction: column;
   gap: 8px;
   padding: 16px 0;
+  border: 1px solid transparent;
 
   &:hover {
     cursor: pointer;
+    border-top: 1px solid #adadad;
+    border-bottom: 1px solid #adadad;
   }
 }
 
