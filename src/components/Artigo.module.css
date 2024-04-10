@@ -1,0 +1,40 @@
+.artigo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.categoria {
+  color: #adadad;
+  font-weight: 700;
+}
+
+.titulo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.conteudo {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.5;
+  @supports (-webkit-line-clamp: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.data {
+  color: #adadad;
+}
