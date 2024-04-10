@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "homepage": "https://thekidisalright.github.io/alexandre-blog/"
+  "homepage": "https://thekidisalright.github.io/alexandre-blog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
