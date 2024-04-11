@@ -12,12 +12,38 @@ body {
 
 * {
   box-sizing: border-box;
+  scrollbar-color: #1b1b1f #f5f5f7;
+  scrollbar-width: thin;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-moz-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-ms-scrollbar-track {
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
 p {
   line-height: 1.5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
