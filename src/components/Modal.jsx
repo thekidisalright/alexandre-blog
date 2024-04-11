@@ -22,7 +22,7 @@ const Modal = ({ modal, setModal, artigo }) => {
             <span className={style.categoria}>{artigo.categoria}</span>
           </div>
         </div>
-        <p className={style.conteudo}>{artigo.conteudo}</p>
+        <div className={style.conteudo}>{artigo.conteudo}</div>
       </div>
     </div>
   );
