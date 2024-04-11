@@ -72,7 +72,7 @@
   scrollbar-width: none;
   user-select: none;
 
-  ol {
+  ol, ul {
     padding: 0;
     margin: 0;
     display: flex;
