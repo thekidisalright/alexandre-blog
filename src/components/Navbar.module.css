@@ -1,0 +1,12 @@
+.header {
+  padding: 16px;
+}
+
+.brand {
+  font-size: 24px;
+  margin: 0;
+
+  span {
+    color: #adadad;
+  }
+}

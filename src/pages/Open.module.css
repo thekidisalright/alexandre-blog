@@ -1,0 +1,71 @@
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  padding: 16px;
+
+  a {
+    font-size: 24px;
+    color: #adadad;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.artigo {
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 100%;
+  padding: 32px 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  overflow: auto;
+}
+
+.wrapperTitulo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 32px;
+}
+
+.desc {
+  color: #adadad;
+  display: flex;
+  gap: 8px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  overflow: auto;
+  height: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  user-select: none;
+
+  ol,
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  li {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
